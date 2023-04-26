@@ -343,14 +343,20 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   padding-top: 50px;
   width: 100%;
 }
+
+.navbar {
+  font-size: 1.2rem;
+}
+
+.navbar-brand{
+  font-size: 1.7rem;
+}
+
 @media (max-width: 780px) {
   .custom-navbar > .container {
     padding-right: 0;
     padding-left: 0;
   }
-}
-.custom-navbar .navbar-brand {
-  font-size: 1.7rem;
 }
 
 /* Burger */
@@ -449,3 +455,43 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .social a:hover {
   color: #000;
 }
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.avatar{
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+/*--------------------------------------------------------------
+# Work-Single
+--------------------------------------------------------------*/
+
+.image-examples{
+  text-align: center;
+}
+.image-examples h3{
+  margin-bottom: 3rem;
+}
+
+.image-examples img{
+  border-style: solid;
+  border-color: #0d1e2d;
+}
+
+/*--------------------------------------------------------------
+# Summary
+--------------------------------------------------------------*/
+
+.summary {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+

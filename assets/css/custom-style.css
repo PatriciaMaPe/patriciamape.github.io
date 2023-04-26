@@ -1,20 +1,3 @@
-cutom-burger {
-  width: 28px;
-  height: 32px;
-  cursor: pointer;
-  position: relative;
-}
-
-
-.navbar {
-  font-size: 1.2rem;
-}
-
-
-.navbar-brand{
-  font-size: 1.7rem;
-}
-
 .construction{
   text-align:center;
   background-color: yellow;
